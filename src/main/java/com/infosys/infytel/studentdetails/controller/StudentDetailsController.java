@@ -27,6 +27,7 @@ import com.infosys.infytel.studentdetails.service.StudentDetailsService;
 
 @RestController
 @CrossOrigin
+//cross origin to overcome browser compatabilities
 public class StudentDetailsController {
 
 	Logger logger = LoggerFactory.getLogger(this.getClass());
